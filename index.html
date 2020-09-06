@@ -3,9 +3,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Panda Commerce</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#home">
+    <img src="panda-commerce/logo.png" alt="Panda Commerce">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#Shoes">Shoes</a>
+      <a class="nav-link" href="#Bag-Pack">Bag-Pack</a>
+      <a class="nav-link" href="#subscribe">Subscribe</a>
+      <a class="nav-link" href="#Contact Us" aria-disabled="">Contact Us</a>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="container">
+<div id="carouselExampleInterval" class="carousel slide bg-color" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="10000">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+            <h1>
+              MI LED TV 4K PRO 64 Inch
+            </h1>
+            <p>
+              This is a modern looking TV which is very affordable in PRICE. People say It's a value for money product in this era.
+            </p>
+            <h1 class="price">1200tk</h1>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="col-md-5">
+          <img src="panda-commerce/banner-images/tv.png" class="d-block w-100" alt="tv">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="2000">   
+    <div class="row align-items-center">
+      <div class="col-md-7">
+          <h1>
+            Beats Solo3 Wireless On-Ear Headphones -  Class 1 Bluetooth - Black (Latest Model)
+          </h1>
+          <p>
+            High-performance wireless noise cancelling headphones in grey. 40 Hours Of Listening Time.
+            Active Noise Cancelling (ANC) blocks external noise.
+            Transparency helps you stay aware of your surroundings while listening
+            Features the Apple H1 Headphone Chip and Class 1 Bluetooth for extended range and fewer dropouts
+            Compatible with iOS and Android.
+          </p>
+          <h1 class="price">
+            PRICE 300TK
+          </h1>
+          <button class="buy-now-button">Buy Now</button>
+      </div>
+      <div class="col-md-5">
+  
+          <img src="panda-commerce/banner-images/headphone.png" class="d-block " alt="headphone">
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+            <h1>
+              X-Box to enjoy your free time 
+            </h1>
+            <p>
+              It's a kind of a gaming console which is used to play various kinds of video games. It's designed by Microsoft Company LTD.
+            </p>
+            <h1 class="price">
+              PRICE 500TK
+            </h1>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="col-md-5">
+          <img src="panda-commerce/banner-images/xbox.png" class="d-block w-100" alt="xbox">
+        </div>
+      </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+
+<div class="container catagories">
+  <div class="row ">
+    <div class="col-md-4">
+      <div class=" d-flex justify-content-between cat-1 align-items-center">
+        <h1>
+          Watch
+        </h1>
+        <img src="panda-commerce/categories/watch.png" alt="Watch">
+      </div>
+  </div>
+    <div class="col-md-4 ">
+      <div class="d-flex justify-content-between cat-2 align-items-center">
+        <h1>
+          Bags
+        </h1>
+        <img src="panda-commerce/categories/bag.png" alt="Bags">
+      </div>
+      </div>
+    <div class="col-md-4 ">
+      <div class="d-flex justify-content-between cat-3 align-items-center">
+        <h1>Shoes</h1>
+        <img src="panda-commerce/categories/shoes.png" alt="Shoes">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container shoes" id="Shoes">
+  <h2>
+    <u>Shoes</u>
+ </h2>
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="panda-commerce/shoes/shoe-1.png" class="card-img-top" alt="shoe-1">
+      <div class="card-body">
+        <h5 class="card-title">Adidas Men's Grand Court Sneaker</h5>
+        <p class="card-text">A '70s style reborn. These men's shoes take inspiration from iconic sport styles of the past and move them into the future. They're crafted with a suede upper and leather-like details. Signature 3-Stripes flash along the sides. Plush midsole cushioning gives comfort to every step.</p>
+        <h5>PRICE 1400TK</h5>
+        <button class="buy-now-button">Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="panda-commerce/shoes/shoe-2.png" class="card-img-top" alt="shoe-2">
+      <div class="card-body">
+        <h5 class="card-title">BLITYA Women Men Fashion Sneakers Running Shoes.</h5>
+        <p class="card-text">BREATHABLE UPPER: The mesh fabric material design makes it lightweight, elastic, airy, cushy and stylish, which is very suitable for everyday wear.</p></br>
+        <H5>PRICE 1000TK</H5>
+        <button class="buy-now-button">Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="panda-commerce/shoes/shoe-3.png" class="card-img-top" alt="shoe-3">
+      <div class="card-body">
+        <h5 class="card-title">Nike Men's Air Max 200.</h5>
+        <p class="card-text">A '70s style reborn. These men's shoes take inspiration from iconic sport styles of the past and move them into the future. They're crafted with a suede upper and leather-like details. Signature 3-Stripes flash along the sides. Plush midsole cushioning gives comfort to every step.</p>
+        <h5>PRICE 1500TK</h5>
+        <button class="buy-now-button">Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="Bag-Pack">
+  <h2><u>
+    Bags
+  </u></h2>
+
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="panda-commerce/bags/bag-1.png" class="card-img-top" alt="bag-1">
+      <div class="card-body">
+        <h5 class="card-title">OUTJOY Backpack for Men Anti-Theft Laptop Backpack</h5>
+        <p class="card-text">OUTJOY commuting backpack is made of premium water repellent and rip resistant polyester to a large extent to protect your stuffs inside from getting wet in a short rain, and it is safe and sound when it encounters careless scratches. The concealed zipper to the inner compartment is located under the strap which is secret and secure that will detour the theft.</p>
+        <h5>PRICE 1300TK Only</h5>
+        <button class="buy-now-button">Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="panda-commerce/bags/bag-2.png" class="card-img-top" alt="bag-2">
+      <div class="card-body">
+        <h5 class="card-title">Vintage Backpack for Men Women Laptop Backpack Bookbags College Backpack</h5>
+        <p class="card-text">Made of Waterproof DURABLE ECO-FRIENDLY Polyester Fabric with REFLECTIVE STRIPE & metal zippers, offers LIGHT-WEIGHT Carrying and of force reinforcement; Breathable and adjustable shoulder straps relieve the stress of shoulder; Foam padded top handle for a long time carry on. Gifts for College middle/high school student backpack for teen boys/girls</p>
+        <h5>PRICE 1800TK Only</h5>
+        <button class="buy-now-button">Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="panda-commerce/bags/bag-3.png" class="card-img-top" alt="bag-3">
+      <div class="card-body">
+        <h5 class="card-title">School Backpack with Laptop Pocket USB Charging Port for BusinessTravel College</h5>
+        <p class="card-text">One spacious main packing compartment for day usage, up to 15.6” laptop, iPad & accessories. One organizer compartment for small thing like book, key, pen mouse, act. Two front and side pockets for optimum organization of your items and ease of access to essentials</p>
+        <h5>PRICE 1600TK Only</h5>
+        <button class="buy-now-button">Buy Now >></button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container bg-color d-flex justify-content-center d-flex align-items-center" id="subscribe">
+    <div>
+    <h3>LET'S STAY IN TOUCH </h3>
+    <h6>Get Updates on Sales, Special DiSCOUNTS AND MORE </h6>
+    <input class="form-control" type="E-mail" placeholder="Enter Your E-Mail"></br>
+    <button class="buy-now-button">Submit</button>
+  </div>
+</div>
+
+<footer>
+  <p style="text-align: center;">© Panda Commerce 2020, All Rights Received </p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
 </body>
 </html>
